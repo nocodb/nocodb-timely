@@ -29,6 +29,6 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "nocodb-daily": "^0.91.10-20220617-1805"
+    "nocodb-daily": "0.91.10-pr-2435-20220620-1258"
   }
 }
