@@ -1,6 +1,7 @@
 name: Delete old releases
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'
 
