@@ -2,7 +2,7 @@ name: Delete old releases
 
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs: 
   delete-old-releases:
