@@ -12,6 +12,6 @@ jobs:
         - uses: dev-drprasad/delete-older-releases@v0.2.0
           with:
             repo: nocodb/nocodb-timely # defaults to current repo
-            keep_latest: 5
+            keep_latest: 200
           env:
             GITHUB_TOKEN: ${{ secrets.NC_GITHUB_TOKEN }}
