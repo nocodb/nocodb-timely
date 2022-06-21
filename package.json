@@ -12,7 +12,8 @@
   },
   "pkg": {
     "assets": [
-      "node_modules/**/*"
+      "node_modules/**/*",
+      ".env"
     ],
     "targets": [
       "node16-linux-arm64",
