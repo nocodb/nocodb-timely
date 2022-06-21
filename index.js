@@ -1,5 +1,6 @@
 (async () => {
     try {
+        console.log('env', process.env.NC_DISABLE_TELE)
         const app = require('express')();
         const {Noco} = require("nocodb-daily");
         const httpServer = app.listen(process.env.PORT || 8080);
