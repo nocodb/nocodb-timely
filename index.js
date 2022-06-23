@@ -1,6 +1,8 @@
+process.env.NC_DISABLE_TELE = 'true';
+process.env.NC_BINARY_BUILD = 'true';
+
 (async () => {
     try {
-        process.env.NC_DISABLE_TELE = 'true';
         const app = require('express')();
         const {Noco} = require("nocodb-daily");
         const httpServer = app.listen(process.env.PORT || 8080);
