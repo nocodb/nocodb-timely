@@ -28,6 +28,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nocodb-daily": "^0.91.10-20220617-1805"
+    "nocodb-daily": "0.111.0-20230829-0602"
   }
 }
